@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="d-flex justify-content-center mt-4">
+      <div className="d-flex justify-content-center mt-4 ">
         <button onClick={fetchData} className="btn btn-primary">
           Click To Generate User Info
         </button>
@@ -31,7 +31,7 @@ function App() {
               <div
                 className="card d-flex flex-column box-shadow align-items-center"
                 style={{ width: "18rem" }}>
-                  
+
                 <div className="card-body">
                   <h5 className="card-title"> Name: {user.name}</h5>
                   <p className="card-text">Id: {user.id}</p>
